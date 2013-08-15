@@ -1,0 +1,18 @@
+
+-4
+down vote
+favorite
+My team has their repositories as .git files in various places on the filesystem, we don't use a git server. How do you create a .git file from existing sources?
+
+linux git centos
+share|edit
+edited Apr 24 '12 at 23:03
+
+asked Apr 24 '12 at 22:31
+
+fred basset
+1,68172353
+Go into source directory and do git init? It will create the .git directory in there. – birryree Apr 24 '12 at 22:32
+OK so if I do a git init in my source directory, then check in and push, the result will be a .git file that others can clone? – fred basset Apr 24 '12 at 22:50
+Oh, I see what you're asking about - you probably meant to do something like documentd here: jedi.be/blog/2009/05/06/8-ways-to-share-your-git-repository/… - but yes, first you need to git init, add the sources, commit, and do what's documented in that link to allow others to clone/pull from you. – birryree Apr 24 '12 at 22:54
+OK I think I see what they've done, they've created .git files then renamed them to something like project1.git. So I was under the impression 
