@@ -10,6 +10,8 @@ edited Apr 24 '12 at 23:03
 
 asked Apr 24 '12 at 22:31
 
+
+
 fred basset
 1,68172353
 Go into source directory and do git init? It will create the .git directory in there. – birryree Apr 24 '12 at 22:32
